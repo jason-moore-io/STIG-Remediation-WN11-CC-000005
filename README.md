@@ -4,22 +4,22 @@
   This PowerShell script ensures camera access from the lock screen is disabled.
 
 # Notes
-  Author          : Jason Moore
-  LinkedIn        : linkedin.com/in/jasonmoore-infosec
-  GitHub          : github.com/jasonmoore.io
-  Date Created    : 2026-08-26
-  Last Modified   : 2026-08-29
-  Version         : 1.0
-  CVEs            : N/A
-  Plugin IDs      : 19506
-  STIG-ID         : WN11-CC-000005
-  Documentation   : https://stigaview.com/products/win11/v2r8/WN11-CC-000005/
+    Author          : Jason Moore
+    LinkedIn        : linkedin.com/in/jasonmoore-infosec
+    GitHub          : github.com/jasonmoore.io
+    Date Created    : 2026-08-26
+    Last Modified   : 2026-08-29
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : 19506
+    STIG-ID         : WN11-CC-000005
+    Documentation   : https://stigaview.com/products/win11/v2r8/WN11-CC-000005/
 
 # Tested On
-  Date(s) Tested  : 2026-08-29
-  Tested By       : Tenable Nessus Vulnerability Management
-  Systems Tested  : Windows 11
-  PowerShell Ver. : Build 26100; Revision 9168
+    Date(s) Tested  : 2026-08-29
+    Tested By       : Tenable Nessus Vulnerability Management
+    Systems Tested  : Windows 11
+    PowerShell Ver. : Build 26100; Revision 9168
 
 # Usage
   Run this script in an elevated (Administrator) PowerShell session on the
