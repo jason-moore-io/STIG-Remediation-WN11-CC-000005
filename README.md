@@ -57,8 +57,8 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalizatio
 Get-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" `
   -Name "NoLockScreenCamera"
 
-# You want to see:
-# NoLockScreenCamera : 1
+ You want to see:
+ NoLockScreenCamera : 1
 
 # Cleaner pass/fail check
 $Value = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" `
@@ -74,5 +74,5 @@ if ($Value -eq 1) {
 # reg.exe confirmation
 reg query "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoLockScreenCamera
 
-# Expected result:
-# NoLockScreenCamera    REG_DWORD    0x1
+ Expected result:
+ NoLockScreenCamera    REG_DWORD    0x1
