@@ -1,9 +1,9 @@
-#STIG-Remediation-WN11-CC-000005
+# STIG-Remediation-WN11-CC-000005
 
-#Synopsis
+# Synopsis
     This PowerShell script ensures camera access from the lock screen is disabled.
 
-#Notes
+# Notes
     Author          : Jason Moore
     LinkedIn        : linkedin.com/in/jasonmoore-infosec
     GitHub          : github.com/jasonmoore.io
@@ -41,8 +41,9 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalizatio
 Get-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" `
   -Name "NoLockScreenCamera" `
   -ErrorAction SilentlyContinue
-# You want to see:
-# NoLockScreenCamera : 0
+  
+ You want to see:
+ NoLockScreenCamera : 0
 
 # Remediation
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" -Force | Out-Null
