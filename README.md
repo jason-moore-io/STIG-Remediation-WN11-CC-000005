@@ -1,9 +1,9 @@
 # STIG-Remediation-WN11-CC-000005
 
-.SYNOPSIS
+# SYNOPSIS
     This PowerShell script ensures camera access from the lock screen is disabled.
 
-.NOTES
+# Notes
     Author          : Jason Moore
     LinkedIn        : linkedin.com/in/jasonmoore-infosec
     GitHub          : github.com/jasonmoore.io
@@ -15,13 +15,13 @@
     STIG-ID         : WN11-CC-000005
     Documentation   : https://stigaview.com/products/win11/v2r8/WN11-CC-000005/
 
-.TESTED ON
+# Tested On
     Date(s) Tested  : 2026-08-29
     Tested By       : Tenable Nessus Vulnerability Management
     Systems Tested  : Windows 11
     PowerShell Ver. : Build 26100; Revision 9168
 
-.USAGE
+# Usage
     Run this script in an elevated (Administrator) PowerShell session on the
     target Windows 11 workstation. It creates the NoLockScreenCamera DWORD
     under SOFTWARE\Policies\Microsoft\Windows\Personalization, sets it to
