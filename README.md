@@ -1,6 +1,5 @@
 # STIG-Remediation-WN11-CC-000005
 
-<#
 .SYNOPSIS
     This PowerShell script ensures camera access from the lock screen is disabled.
 
